@@ -1,1 +1,2 @@
-ReactDOM.render(<h1>Render me!</h1>, document.getElementById('app'));
+var app = React.createElement(App);
+ReactDOM.render(app, document.getElementById('app'));
